@@ -1,0 +1,45 @@
+.card {
+    /* width: 20vw !important; */
+    background-color: rgb(250, 186, 235) !important;
+    /* display: inline-block !important; */
+  }
+
+  .card:hover {
+    border: 2px solid rgba(16, 194, 185, 0.952);
+    transform: scale(1.05);
+  }
+
+.car {
+  display: inline-block !important;
+  height: 150px !important;
+    /* height: 20% !important */
+   /* margin: auto !important; */
+}
+.car:hover{
+   background-color: rgb(233, 110, 130) !important;
+   transform: scale(1.05); 
+   
+}
+
+/* .card {
+    display: inline-block !important;
+    background-color: rgb(147, 133, 196) !important;
+    margin-top: 5vw;
+    margin-left: 5%;
+    width: 25vw !important;
+    height: 25vh !important;
+    
+} */
+
+
+.card:hover {
+  background-color: rgb(245, 121, 142) !important;
+  transform: scale(1.05); 
+  
+}
+
+
+.price {
+  margin-top: 10px !important;
+  color: rgb(207, 6, 130) !important;
+}
