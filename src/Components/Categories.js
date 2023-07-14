@@ -7,7 +7,7 @@ const Categories = (props) => {
     <div className='mainn'>
 
         {props.catProduct.map((currProd, index) => {
-            return <button className='bt' key={index} onClick={() => props.filterProduct(currProd)}>{currProd}</button>
+            return <button className='b' key={index} onClick={() => props.filterProduct(currProd)}>{currProd}</button>
         })}
     {/* <button onClick={() => props.setProducts(Menu)}>All</button> */}
       {/* <button className='bt' onClick={() => props.filterProduct('smartphone')}>SmartPhones</button>
